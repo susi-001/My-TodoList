@@ -1,0 +1,55 @@
+/* App.css */
+.custom-background {
+  background-color: green; /* Set the desired background color here */
+   /* Optionally, set the text color */
+}
+
+.home{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color: blue;
+}
+.create_form input{
+  width: 300px;
+  padding:10px;
+  border-bottom: 2px solid;
+  outline:none;
+}
+.create_form button{
+  padding: 10px;
+  background-color: rgb(31, 31, 169);
+  color:white;
+  cursor:pointer;
+}
+.task{
+  display:flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: rgb(8, 7, 7);
+  color: rgb(241, 239, 235);
+  height: 35px;
+  padding:2px 5px 2px 5px;
+  margin-top: 10px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox.icon{
+  margin-right: 4px;
+  font-size: 15px;
+}
+.task div span{
+  margin: 0px px 0px 4px;
+}
+.task div .icon{
+  cursor: pointer;
+}
+.icon{
+  margin-right: 10px;
+}
+.line_through{
+  text-decoration: line-through;
+}
